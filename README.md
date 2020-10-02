@@ -11,14 +11,14 @@ while True:
             if letra in abc:
                 posicion = abc.index(letra) + 13
                 if posicion > len(abc):
-                    posicion1 = len(abc) -(abc.index(letra) + 1)
+                    posicion1 = len(abc)-(abc.index(letra) + 1)
                     posicion2 = 13 - (posicion1 + 1)
                     print(abc[posicion2], 
                           end = "") 
                 elif (letra == 'n'):
                     print(abc[0], end = "")
                 else:
-                    print(abc[posicion], end =  "")
+                    print(abc[posicion], end ="")
             else:
                 print(letra, end = "")
       print("")
